@@ -1,0 +1,54 @@
+# Comandos del bot de Discord
+
+## ➕ Sumar números
+?add 5 3
+Resultado: 8
+
+---
+
+## 🎲 Tirar dados (formato NdN)
+?roll 2d6
+Ejemplo de salida: 3, 5
+
+Error:
+?roll hola
+Respuesta: Format has to be in NdN!
+
+---
+
+## 🤔 Elegir entre opciones
+?choose pizza hamburguesa sushi
+Ejemplo de salida: pizza
+
+---
+
+## 🔁 Repetir mensaje
+?repeat 3 hola
+Salida:
+hola
+hola
+hola
+
+Sin mensaje:
+?repeat 2
+Salida:
+repeating...
+repeating...
+
+---
+
+## 📅 Ver cuándo alguien se unió
+?joined @usuario
+Salida: usuario joined 2024-01-01T12:00:00
+
+---
+
+## 😎 Grupo "cool"
+
+Sin subcomando:
+?cool algo
+Salida: No, algo is not cool
+
+Con subcomando:
+?cool bot
+Salida: Yes, the bot is cool.
